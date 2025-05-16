@@ -1,0 +1,226 @@
+{
+  "clients": [
+    {
+      "id": "1001",
+      "name": "Medica",
+      "lob": "Commercial",
+      "lobMonthData": {
+        "Commercial": {
+          "Jan": {"received":2430000,"loaded":2390000,"billed":2380000,"activeMembers":2200000,"billedMembers":2150000,"balanced":true,"termedMembers":30000,"selfBilledAmount":1800000,"facetsBilledAmount":1810000},
+          "Feb": {"received":2425000,"loaded":2370000,"billed":2400000,"activeMembers":2190000,"billedMembers":2140000,"balanced":false,"termedMembers":29000,"selfBilledAmount":1780000,"facetsBilledAmount":1760000},
+          "Mar": {"received":2440000,"loaded":2430000,"billed":2425000,"activeMembers":2210000,"billedMembers":2200000,"balanced":true,"termedMembers":28000,"selfBilledAmount":1820000,"facetsBilledAmount":1820000},
+          "Apr": {"received":2450000,"loaded":2400000,"billed":2400000,"activeMembers":2220000,"billedMembers":2170000,"balanced":false,"termedMembers":27000,"selfBilledAmount":1830000,"facetsBilledAmount":1800000},
+          "May": {"received":2460000,"loaded":2460000,"billed":2450000,"activeMembers":2230000,"billedMembers":2220000,"balanced":true,"termedMembers":26000,"selfBilledAmount":1850000,"facetsBilledAmount":1855000},
+          "Jun": {"received":2470000,"loaded":2440000,"billed":2400000,"activeMembers":2240000,"billedMembers":2180000,"balanced":false,"termedMembers":25000,"selfBilledAmount":1860000,"facetsBilledAmount":1840000},
+          "Jul": {"received":2480000,"loaded":2480000,"billed":2470000,"activeMembers":2250000,"billedMembers":2240000,"balanced":true,"termedMembers":24000,"selfBilledAmount":1880000,"facetsBilledAmount":1880000},
+          "Aug": {"received":2490000,"loaded":2430000,"billed":2420000,"activeMembers":2260000,"billedMembers":2200000,"balanced":false,"termedMembers":23000,"selfBilledAmount":1890000,"facetsBilledAmount":1850000},
+          "Sep": {"received":2500000,"loaded":2500000,"billed":2490000,"activeMembers":2270000,"billedMembers":2260000,"balanced":true,"termedMembers":22000,"selfBilledAmount":1900000,"facetsBilledAmount":1900000},
+          "Oct": {"received":2510000,"loaded":2450000,"billed":2430000,"activeMembers":2280000,"billedMembers":2210000,"balanced":false,"termedMembers":21000,"selfBilledAmount":1910000,"facetsBilledAmount":1870000},
+          "Nov": {"received":2520000,"loaded":2520000,"billed":2510000,"activeMembers":2290000,"billedMembers":2280000,"balanced":true,"termedMembers":20000,"selfBilledAmount":1930000,"facetsBilledAmount":1930000},
+          "Dec": {"received":2530000,"loaded":2480000,"billed":2450000,"activeMembers":2300000,"billedMembers":2240000,"balanced":false,"termedMembers":19000,"selfBilledAmount":1940000,"facetsBilledAmount":1900000}
+        },
+        "Medicare": {
+          "Jan": {"received":800000,"loaded":810000,"billed":790000,"activeMembers":750000,"billedMembers":730000,"balanced":false,"termedMembers":10000,"selfBilledAmount":600000,"facetsBilledAmount":590000},
+          "Feb": {"received":820000,"loaded":820000,"billed":815000,"activeMembers":770000,"billedMembers":765000,"balanced":true,"termedMembers":9000,"selfBilledAmount":610000,"facetsBilledAmount":610000},
+          "Mar": {"received":830000,"loaded":820000,"billed":810000,"activeMembers":780000,"billedMembers":770000,"balanced":false,"termedMembers":8500,"selfBilledAmount":615000,"facetsBilledAmount":605000},
+          "Apr": {"received":840000,"loaded":845000,"billed":830000,"activeMembers":790000,"billedMembers":780000,"balanced":true,"termedMembers":8000,"selfBilledAmount":620000,"facetsBilledAmount":620000},
+          "May": {"received":850000,"loaded":855000,"billed":845000,"activeMembers":795000,"billedMembers":790000,"balanced":true,"termedMembers":7500,"selfBilledAmount":625000,"facetsBilledAmount":623000},
+          "Jun": {"received":860000,"loaded":850000,"billed":840000,"activeMembers":800000,"billedMembers":785000,"balanced":false,"termedMembers":7000,"selfBilledAmount":630000,"facetsBilledAmount":620000},
+          "Jul": {"received":870000,"loaded":870000,"billed":860000,"activeMembers":805000,"billedMembers":800000,"balanced":true,"termedMembers":6500,"selfBilledAmount":635000,"facetsBilledAmount":635000},
+          "Aug": {"received":880000,"loaded":860000,"billed":855000,"activeMembers":810000,"billedMembers":795000,"balanced":false,"termedMembers":6000,"selfBilledAmount":640000,"facetsBilledAmount":630000},
+          "Sep": {"received":890000,"loaded":890000,"billed":885000,"activeMembers":815000,"billedMembers":810000,"balanced":true,"termedMembers":5500,"selfBilledAmount":645000,"facetsBilledAmount":645000},
+          "Oct": {"received":900000,"loaded":895000,"billed":880000,"activeMembers":820000,"billedMembers":805000,"balanced":false,"termedMembers":5000,"selfBilledAmount":650000,"facetsBilledAmount":640000},
+          "Nov": {"received":910000,"loaded":910000,"billed":905000,"activeMembers":825000,"billedMembers":820000,"balanced":true,"termedMembers":4500,"selfBilledAmount":655000,"facetsBilledAmount":655000},
+          "Dec": {"received":920000,"loaded":900000,"billed":895000,"activeMembers":830000,"billedMembers":815000,"balanced":false,"termedMembers":4000,"selfBilledAmount":660000,"facetsBilledAmount":650000}
+        }
+      },
+      "lobLast12MonthsAggregate": {
+        "Commercial": {"received":29480000,"loaded":29000000,"billed":28800000,"activeMembers":26600000,"billedMembers":25800000,"balancedCount":7,"monthsCount":12,"termedMembers":300000,"selfBilledAmount":22200000,"facetsBilledAmount":22150000},
+        "Medicare": {"received":10220000,"loaded":10180000,"billed":10090000,"activeMembers":9830000,"billedMembers":9650000,"balancedCount":7,"monthsCount":12,"termedMembers":73000,"selfBilledAmount":7470000,"facetsBilledAmount":7430000}
+      }
+    },
+    {
+      "id": "1002",
+      "name": "Neighbourhook Health Plan of Rhode Island",
+      "lob": "Medicare",
+      "lobMonthData": {
+        "Medicare": {
+          "Jan": {"received":1800000,"loaded":1750000,"billed":1720000,"activeMembers":1600000,"billedMembers":1580000,"balanced":false,"termedMembers":20000,"selfBilledAmount":1200000,"facetsBilledAmount":1190000},
+          "Feb": {"received":1820000,"loaded":1800000,"billed":1780000,"activeMembers":1610000,"billedMembers":1600000,"balanced":true,"termedMembers":19000,"selfBilledAmount":1210000,"facetsBilledAmount":1210000},
+          "Mar": {"received":1830000,"loaded":1780000,"billed":1750000,"activeMembers":1620000,"billedMembers":1570000,"balanced":false,"termedMembers":18000,"selfBilledAmount":1215000,"facetsBilledAmount":1190000},
+          "Apr": {"received":1850000,"loaded":1850000,"billed":1830000,"activeMembers":1640000,"billedMembers":1630000,"balanced":true,"termedMembers":17000,"selfBilledAmount":1230000,"facetsBilledAmount":1230000},
+          "May": {"received":2000000,"loaded":1820000,"billed":1800000,"activeMembers":1650000,"billedMembers":1610000,"balanced":false,"termedMembers":16000,"selfBilledAmount":1240000,"facetsBilledAmount":1220000},
+          "Jun": {"received":1880000,"loaded":1880000,"billed":1850000,"activeMembers":1670000,"billedMembers":1650000,"balanced":true,"termedMembers":15000,"selfBilledAmount":1250000,"facetsBilledAmount":1250000},
+          "Jul": {"received":1900000,"loaded":1880000,"billed":1870000,"activeMembers":1680000,"billedMembers":1660000,"balanced":true,"termedMembers":14000,"selfBilledAmount":1260000,"facetsBilledAmount":1260000},
+          "Aug": {"received":1910000,"loaded":1860000,"billed":1840000,"activeMembers":1690000,"billedMembers":1640000,"balanced":false,"termedMembers":13000,"selfBilledAmount":1270000,"facetsBilledAmount":1240000},
+          "Sep": {"received":1920000,"loaded":1920000,"billed":1910000,"activeMembers":1700000,"billedMembers":1690000,"balanced":true,"termedMembers":12000,"selfBilledAmount":1280000,"facetsBilledAmount":1280000},
+          "Oct": {"received":1930000,"loaded":1890000,"billed":1880000,"activeMembers":1710000,"billedMembers":1670000,"balanced":false,"termedMembers":11000,"selfBilledAmount":1290000,"facetsBilledAmount":1260000},
+          "Nov": {"received":1940000,"loaded":1930000,"billed":1920000,"activeMembers":1720000,"billedMembers":1710000,"balanced":true,"termedMembers":10000,"selfBilledAmount":1300000,"facetsBilledAmount":1300000},
+          "Dec": {"received":1950000,"loaded":1900000,"billed":1890000,"activeMembers":1730000,"billedMembers":1680000,"balanced":false,"termedMembers":9000,"selfBilledAmount":1310000,"facetsBilledAmount":1270000}
+        }
+      },
+      "lobLast12MonthsAggregate": {
+        "Medicare": {"received":22110000,"loaded":21700000,"billed":21390000,"activeMembers":19300000,"billedMembers":18800000,"balancedCount":7,"monthsCount":12,"termedMembers":210000,"selfBilledAmount":14600000,"facetsBilledAmount":14450000}
+      }
+    },
+    {
+      "id": "1003",
+      "name": "Alignment Healthcare",
+      "lob": "Medicaid",
+      "lobMonthData": {
+        "Medicaid": {
+          "Jan": {"received":1200000,"loaded":1180000,"billed":1150000,"activeMembers":1100000,"billedMembers":1080000,"balanced":true,"termedMembers":8000,"selfBilledAmount":900000,"facetsBilledAmount":900000},
+          "Feb": {"received":1210000,"loaded":1170000,"billed":1140000,"activeMembers":1110000,"billedMembers":1070000,"balanced":false,"termedMembers":7900,"selfBilledAmount":905000,"facetsBilledAmount":890000},
+          "Mar": {"received":1220000,"loaded":1200000,"billed":1190000,"activeMembers":1120000,"billedMembers":1110000,"balanced":true,"termedMembers":7800,"selfBilledAmount":910000,"facetsBilledAmount":910000},
+          "Apr": {"received":1230000,"loaded":1210000,"billed":1180000,"activeMembers":1130000,"billedMembers":1100000,"balanced":false,"termedMembers":7700,"selfBilledAmount":915000,"facetsBilledAmount":905000},
+          "May": {"received":1240000,"loaded":1230000,"billed":1220000,"activeMembers":1140000,"billedMembers":1130000,"balanced":true,"termedMembers":7600,"selfBilledAmount":920000,"facetsBilledAmount":920000},
+          "Jun": {"received":1250000,"loaded":1220000,"billed":1200000,"activeMembers":1150000,"billedMembers":1120000,"balanced":false,"termedMembers":7500,"selfBilledAmount":925000,"facetsBilledAmount":915000},
+          "Jul": {"received":1260000,"loaded":1250000,"billed":1240000,"activeMembers":1160000,"billedMembers":1150000,"balanced":true,"termedMembers":7400,"selfBilledAmount":930000,"facetsBilledAmount":930000},
+          "Aug": {"received":1270000,"loaded":1240000,"billed":1220000,"activeMembers":1170000,"billedMembers":1140000,"balanced":false,"termedMembers":7300,"selfBilledAmount":935000,"facetsBilledAmount":925000},
+          "Sep": {"received":1280000,"loaded":1280000,"billed":1270000,"activeMembers":1180000,"billedMembers":1170000,"balanced":true,"termedMembers":7200,"selfBilledAmount":940000,"facetsBilledAmount":940000},
+          "Oct": {"received":1290000,"loaded":1260000,"billed":1240000,"activeMembers":1190000,"billedMembers":1160000,"balanced":false,"termedMembers":7100,"selfBilledAmount":945000,"facetsBilledAmount":935000},
+          "Nov": {"received":1300000,"loaded":1300000,"billed":1290000,"activeMembers":1200000,"billedMembers":1190000,"balanced":true,"termedMembers":7000,"selfBilledAmount":950000,"facetsBilledAmount":950000},
+          "Dec": {"received":1310000,"loaded":1270000,"billed":1260000,"activeMembers":1210000,"billedMembers":1180000,"balanced":false,"termedMembers":6900,"selfBilledAmount":955000,"facetsBilledAmount":945000}
+        }
+      },
+      "lobLast12MonthsAggregate": {
+        "Medicaid": {"received":14700000,"loaded":14400000,"billed":14100000,"activeMembers":13500000,"billedMembers":13200000,"balancedCount":7,"monthsCount":12,"termedMembers":90000,"selfBilledAmount":11000000,"facetsBilledAmount":10950000}
+      }
+    },
+    {
+      "id": "1004",
+      "name": "Alterwood Advantage Incorporated",
+      "lob": "Commercial",
+      "lobMonthData": {
+        "Commercial": {
+          "Jan": {"received":2100000,"loaded":2080000,"billed":2050000,"activeMembers":1900000,"billedMembers":1880000,"balanced":true,"termedMembers":25000,"selfBilledAmount":1500000,"facetsBilledAmount":1500000},
+          "Feb": {"received":2110000,"loaded":2090000,"billed":2080000,"activeMembers":1910000,"billedMembers":1890000,"balanced":true,"termedMembers":24000,"selfBilledAmount":1510000,"facetsBilledAmount":1510000},
+          "Mar": {"received":2120000,"loaded":2060000,"billed":2040000,"activeMembers":1920000,"billedMembers":1870000,"balanced":false,"termedMembers":23000,"selfBilledAmount":1520000,"facetsBilledAmount":1500000},
+          "Apr": {"received":2130000,"loaded":2130000,"billed":2120000,"activeMembers":1930000,"billedMembers":1920000,"balanced":true,"termedMembers":22000,"selfBilledAmount":1530000,"facetsBilledAmount":1530000},
+          "May": {"received":2140000,"loaded":2120000,"billed":2110000,"activeMembers":1940000,"billedMembers":1910000,"balanced":false,"termedMembers":21000,"selfBilledAmount":1540000,"facetsBilledAmount":1520000},
+          "Jun": {"received":2150000,"loaded":2150000,"billed":2140000,"activeMembers":1950000,"billedMembers":1940000,"balanced":true,"termedMembers":20000,"selfBilledAmount":1550000,"facetsBilledAmount":1550000},
+          "Jul": {"received":2160000,"loaded":2130000,"billed":2110000,"activeMembers":1960000,"billedMembers":1920000,"balanced":false,"termedMembers":19000,"selfBilledAmount":1560000,"facetsBilledAmount":1540000},
+          "Aug": {"received":2170000,"loaded":2170000,"billed":2160000,"activeMembers":1970000,"billedMembers":1960000,"balanced":true,"termedMembers":18000,"selfBilledAmount":1570000,"facetsBilledAmount":1570000},
+          "Sep": {"received":2180000,"loaded":2160000,"billed":2140000,"activeMembers":1980000,"billedMembers":1950000,"balanced":false,"termedMembers":17000,"selfBilledAmount":1580000,"facetsBilledAmount":1550000},
+          "Oct": {"received":2190000,"loaded":2190000,"billed":2180000,"activeMembers":1990000,"billedMembers":1980000,"balanced":true,"termedMembers":16000,"selfBilledAmount":1590000,"facetsBilledAmount":1590000},
+          "Nov": {"received":2200000,"loaded":2170000,"billed":2150000,"activeMembers":2000000,"billedMembers":1960000,"balanced":false,"termedMembers":15000,"selfBilledAmount":1600000,"facetsBilledAmount":1570000},
+          "Dec": {"received":2210000,"loaded":2210000,"billed":2200000,"activeMembers":2010000,"billedMembers":2000000,"balanced":true,"termedMembers":14000,"selfBilledAmount":1610000,"facetsBilledAmount":1610000}
+        }
+      },
+      "lobLast12MonthsAggregate": {
+        "Commercial": {"received":25400000,"loaded":25100000,"billed":24700000,"activeMembers":23200000,"billedMembers":22700000,"balancedCount":8,"monthsCount":12,"termedMembers":250000,"selfBilledAmount":18400000,"facetsBilledAmount":18350000}
+      }
+    },
+    {
+      "id": "1005",
+      "name": "AvMed Health Plan",
+      "lob": "Exchange",
+      "lobMonthData": {
+        "Exchange": {
+          "Jan": {"received":900000,"loaded":890000,"billed":870000,"activeMembers":850000,"billedMembers":830000,"balanced":true,"termedMembers":10000,"selfBilledAmount":650000,"facetsBilledAmount":650000},
+          "Feb": {"received":910000,"loaded":900000,"billed":880000,"activeMembers":860000,"billedMembers":840000,"balanced":false,"termedMembers":9500,"selfBilledAmount":655000,"facetsBilledAmount":640000},
+          "Mar": {"received":920000,"loaded":915000,"billed":900000,"activeMembers":870000,"billedMembers":860000,"balanced":true,"termedMembers":9000,"selfBilledAmount":660000,"facetsBilledAmount":660000},
+          "Apr": {"received":930000,"loaded":910000,"billed":905000,"activeMembers":880000,"billedMembers":865000,"balanced":false,"termedMembers":8500,"selfBilledAmount":665000,"facetsBilledAmount":655000},
+          "May": {"received":940000,"loaded":935000,"billed":925000,"activeMembers":890000,"billedMembers":880000,"balanced":true,"termedMembers":8000,"selfBilledAmount":670000,"facetsBilledAmount":670000},
+          "Jun": {"received":950000,"loaded":940000,"billed":930000,"activeMembers":900000,"billedMembers":885000,"balanced":false,"termedMembers":7500,"selfBilledAmount":675000,"facetsBilledAmount":665000},
+          "Jul": {"received":960000,"loaded":955000,"billed":950000,"activeMembers":910000,"billedMembers":905000,"balanced":true,"termedMembers":7000,"selfBilledAmount":680000,"facetsBilledAmount":680000},
+          "Aug": {"received":970000,"loaded":960000,"billed":945000,"activeMembers":920000,"billedMembers":900000,"balanced":false,"termedMembers":6500,"selfBilledAmount":685000,"facetsBilledAmount":675000},
+          "Sep": {"received":980000,"loaded":980000,"billed":970000,"activeMembers":930000,"billedMembers":925000,"balanced":true,"termedMembers":6000,"selfBilledAmount":690000,"facetsBilledAmount":690000},
+          "Oct": {"received":990000,"loaded":985000,"billed":980000,"activeMembers":940000,"billedMembers":935000,"balanced":true,"termedMembers":5500,"selfBilledAmount":695000,"facetsBilledAmount":695000},
+          "Nov": {"received":1000000,"loaded":990000,"billed":985000,"activeMembers":950000,"billedMembers":940000,"balanced":false,"termedMembers":5000,"selfBilledAmount":700000,"facetsBilledAmount":690000},
+          "Dec": {"received":1010000,"loaded":995000,"billed":990000,"activeMembers":960000,"billedMembers":945000,"balanced":true,"termedMembers":4500,"selfBilledAmount":705000,"facetsBilledAmount":700000}
+        }
+      },
+      "lobLast12MonthsAggregate": {
+        "Exchange": {"received":11460000,"loaded":11260000,"billed":11030000,"activeMembers":10800000,"billedMembers":10500000,"balancedCount":8,"monthsCount":12,"termedMembers":85000,"selfBilledAmount":8130000,"facetsBilledAmount":8090000}
+      }
+    },
+    {
+      "id": "1006",
+      "name": "Blue Cross Blue Shield Of Arizona",
+      "lob": "Commercial",
+      "lobMonthData": {
+        "Commercial": {
+          "Jan": {"received":2700000,"loaded":2690000,"billed":2680000,"activeMembers":2500000,"billedMembers":2490000,"balanced":true,"termedMembers":35000,"selfBilledAmount":2100000,"facetsBilledAmount":2100000},
+          "Feb": {"received":2710000,"loaded":2680000,"billed":2670000,"activeMembers":2510000,"billedMembers":2480000,"balanced":false,"termedMembers":34000,"selfBilledAmount":2110000,"facetsBilledAmount":2090000},
+          "Mar": {"received":2720000,"loaded":2700000,"billed":2690000,"activeMembers":2520000,"billedMembers":2510000,"balanced":true,"termedMembers":33000,"selfBilledAmount":2120000,"facetsBilledAmount":2120000},
+          "Apr": {"received":2730000,"loaded":2710000,"billed":2700000,"activeMembers":2530000,"billedMembers":2520000,"balanced":true,"termedMembers":32000,"selfBilledAmount":2130000,"facetsBilledAmount":2130000},
+          "May": {"received":2740000,"loaded":2690000,"billed":2680000,"activeMembers":2540000,"billedMembers":2490000,"balanced":false,"termedMembers":31000,"selfBilledAmount":2140000,"facetsBilledAmount":2110000},
+          "Jun": {"received":2750000,"loaded":2750000,"billed":2740000,"activeMembers":2550000,"billedMembers":2540000,"balanced":true,"termedMembers":30000,"selfBilledAmount":2150000,"facetsBilledAmount":2150000},
+          "Jul": {"received":2760000,"loaded":2730000,"billed":2720000,"activeMembers":2560000,"billedMembers":2530000,"balanced":false,"termedMembers":29000,"selfBilledAmount":2160000,"facetsBilledAmount":2140000},
+          "Aug": {"received":2770000,"loaded":2770000,"billed":2760000,"activeMembers":2570000,"billedMembers":2560000,"balanced":true,"termedMembers":28000,"selfBilledAmount":2170000,"facetsBilledAmount":2170000},
+          "Sep": {"received":2780000,"loaded":2760000,"billed":2750000,"activeMembers":2580000,"billedMembers":2550000,"balanced":false,"termedMembers":27000,"selfBilledAmount":2180000,"facetsBilledAmount":2150000},
+          "Oct": {"received":2790000,"loaded":2790000,"billed":2780000,"activeMembers":2590000,"billedMembers":2580000,"balanced":true,"termedMembers":26000,"selfBilledAmount":2190000,"facetsBilledAmount":2190000},
+          "Nov": {"received":2800000,"loaded":2770000,"billed":2760000,"activeMembers":2600000,"billedMembers":2570000,"balanced":false,"termedMembers":25000,"selfBilledAmount":2200000,"facetsBilledAmount":2170000},
+          "Dec": {"received":2810000,"loaded":2810000,"billed":2800000,"activeMembers":2610000,"billedMembers":2600000,"balanced":true,"termedMembers":24000,"selfBilledAmount":2210000,"facetsBilledAmount":2210000}
+        },
+        "Medicare": {
+          "Jan": {"received":1600000,"loaded":1590000,"billed":1580000,"activeMembers":1500000,"billedMembers":1490000,"balanced":true,"termedMembers":15000,"selfBilledAmount":1100000,"facetsBilledAmount":1100000},
+          "Feb": {"received":1610000,"loaded":1580000,"billed":1570000,"activeMembers":1510000,"billedMembers":1480000,"balanced":false,"termedMembers":14500,"selfBilledAmount":1110000,"facetsBilledAmount":1090000},
+          "Mar": {"received":1620000,"loaded":1600000,"billed":1590000,"activeMembers":1520000,"billedMembers":1510000,"balanced":true,"termedMembers":14000,"selfBilledAmount":1120000,"facetsBilledAmount":1120000},
+          "Apr": {"received":1630000,"loaded":1610000,"billed":1600000,"activeMembers":1530000,"billedMembers":1520000,"balanced":true,"termedMembers":13500,"selfBilledAmount":1130000,"facetsBilledAmount":1130000},
+          "May": {"received":1640000,"loaded":1590000,"billed":1580000,"activeMembers":1540000,"billedMembers":1490000,"balanced":false,"termedMembers":13000,"selfBilledAmount":1140000,"facetsBilledAmount":1110000},
+          "Jun": {"received":1650000,"loaded":1650000,"billed":1640000,"activeMembers":1550000,"billedMembers":1540000,"balanced":true,"termedMembers":12500,"selfBilledAmount":1150000,"facetsBilledAmount":1150000},
+          "Jul": {"received":1660000,"loaded":1630000,"billed":1620000,"activeMembers":1560000,"billedMembers":1530000,"balanced":false,"termedMembers":12000,"selfBilledAmount":1160000,"facetsBilledAmount":1140000},
+          "Aug": {"received":1670000,"loaded":1670000,"billed":1660000,"activeMembers":1570000,"billedMembers":1560000,"balanced":true,"termedMembers":11500,"selfBilledAmount":1170000,"facetsBilledAmount":1170000},
+          "Sep": {"received":1680000,"loaded":1660000,"billed":1650000,"activeMembers":1580000,"billedMembers":1550000,"balanced":false,"termedMembers":11000,"selfBilledAmount":1180000,"facetsBilledAmount":1150000},
+          "Oct": {"received":1690000,"loaded":1690000,"billed":1680000,"activeMembers":1590000,"billedMembers":1580000,"balanced":true,"termedMembers":10500,"selfBilledAmount":1190000,"facetsBilledAmount":1190000},
+          "Nov": {"received":1700000,"loaded":1670000,"billed":1660000,"activeMembers":1600000,"billedMembers":1570000,"balanced":false,"termedMembers":10000,"selfBilledAmount":1200000,"facetsBilledAmount":1170000},
+          "Dec": {"received":1710000,"loaded":1710000,"billed":1700000,"activeMembers":1610000,"billedMembers":1600000,"balanced":true,"termedMembers":9500,"selfBilledAmount":1210000,"facetsBilledAmount":1210000}
+        }
+      },
+      "lobLast12MonthsAggregate": {
+        "Commercial": {"received":32740000,"loaded":32480000,"billed":31940000,"activeMembers":29800000,"billedMembers":29200000,"balancedCount":8,"monthsCount":12,"termedMembers":350000,"selfBilledAmount":24600000,"facetsBilledAmount":24500000},
+        "Medicare": {"received":19880000,"loaded":19580000,"billed":19430000,"activeMembers":18500000,"billedMembers":18200000,"balancedCount":8,"monthsCount":12,"termedMembers":138000,"selfBilledAmount":14000000,"facetsBilledAmount":13900000}
+      }
+    },
+    {
+      "id": "1007",
+      "name": "ConnectiCare CMS",
+      "lob": "Medicare",
+      "lobMonthData": {
+        "Medicare": {
+          "Jan": {"received":1500000,"loaded":1480000,"billed":1450000,"activeMembers":1400000,"billedMembers":1380000,"balanced":true,"termedMembers":10000,"selfBilledAmount":1100000,"facetsBilledAmount":1090000},
+          "Feb": {"received":1510000,"loaded":1470000,"billed":1460000,"activeMembers":1410000,"billedMembers":1390000,"balanced":false,"termedMembers":9500,"selfBilledAmount":1110000,"facetsBilledAmount":1080000},
+          "Mar": {"received":1520000,"loaded":1500000,"billed":1490000,"activeMembers":1420000,"billedMembers":1400000,"balanced":true,"termedMembers":9000,"selfBilledAmount":1120000,"facetsBilledAmount":1110000},
+          "Apr": {"received":1530000,"loaded":1510000,"billed":1500000,"activeMembers":1430000,"billedMembers":1410000,"balanced":true,"termedMembers":8500,"selfBilledAmount":1130000,"facetsBilledAmount":1120000},
+          "May": {"received":1540000,"loaded":1490000,"billed":1480000,"activeMembers":1440000,"billedMembers":1390000,"balanced":false,"termedMembers":8000,"selfBilledAmount":1140000,"facetsBilledAmount":1100000},
+          "Jun": {"received":1550000,"loaded":1550000,"billed":1540000,"activeMembers":1450000,"billedMembers":1440000,"balanced":true,"termedMembers":7500,"selfBilledAmount":1150000,"facetsBilledAmount":1150000},
+          "Jul": {"received":1560000,"loaded":1530000,"billed":1520000,"activeMembers":1460000,"billedMembers":1430000,"balanced":false,"termedMembers":7000,"selfBilledAmount":1160000,"facetsBilledAmount":1140000},
+          "Aug": {"received":1570000,"loaded":1570000,"billed":1560000,"activeMembers":1470000,"billedMembers":1460000,"balanced":true,"termedMembers":6500,"selfBilledAmount":1170000,"facetsBilledAmount":1170000},
+          "Sep": {"received":1580000,"loaded":1560000,"billed":1550000,"activeMembers":1480000,"billedMembers":1450000,"balanced":false,"termedMembers":6000,"selfBilledAmount":1180000,"facetsBilledAmount":1150000},
+          "Oct": {"received":1590000,"loaded":1590000,"billed":1580000,"activeMembers":1490000,"billedMembers":1480000,"balanced":true,"termedMembers":5500,"selfBilledAmount":1190000,"facetsBilledAmount":1190000},
+          "Nov": {"received":1600000,"loaded":1570000,"billed":1560000,"activeMembers":1500000,"billedMembers":1470000,"balanced":false,"termedMembers":5000,"selfBilledAmount":1200000,"facetsBilledAmount":1170000},
+          "Dec": {"received":1610000,"loaded":1610000,"billed":1600000,"activeMembers":1510000,"billedMembers":1500000,"balanced":true,"termedMembers":4500,"selfBilledAmount":1210000,"facetsBilledAmount":1210000}
+        }
+      },
+      "lobLast12MonthsAggregate": {
+        "Medicare": {"received":18540000,"loaded":18200000,"billed":17990000,"activeMembers":17700000,"billedMembers":17200000,"balancedCount":7,"monthsCount":12,"termedMembers":100000,"selfBilledAmount":14000000,"facetsBilledAmount":13800000}
+      }
+    },
+    {
+      "id": "1008",
+      "name": "Health First Health Plan",
+      "lob": "Medicaid",
+      "lobMonthData": {
+        "Medicaid": {
+          "Jan": {"received":1100000,"loaded":1080000,"billed":1070000,"activeMembers":1050000,"billedMembers":1040000,"balanced":true,"termedMembers":9000,"selfBilledAmount":850000,"facetsBilledAmount":850000},
+          "Feb": {"received":1110000,"loaded":1070000,"billed":1060000,"activeMembers":1060000,"billedMembers":1030000,"balanced":false,"termedMembers":8500,"selfBilledAmount":860000,"facetsBilledAmount":840000},
+          "Mar": {"received":1120000,"loaded":1100000,"billed":1090000,"activeMembers":1070000,"billedMembers":1060000,"balanced":true,"termedMembers":8000,"selfBilledAmount":870000,"facetsBilledAmount":870000},
+          "Apr": {"received":1130000,"loaded":1110000,"billed":1100000,"activeMembers":1080000,"billedMembers":1070000,"balanced":true,"termedMembers":7500,"selfBilledAmount":880000,"facetsBilledAmount":880000},
+          "May": {"received":1140000,"loaded":1090000,"billed":1080000,"activeMembers":1090000,"billedMembers":1040000,"balanced":false,"termedMembers":7000,"selfBilledAmount":890000,"facetsBilledAmount":860000},
+          "Jun": {"received":1150000,"loaded":1150000,"billed":1140000,"activeMembers":1100000,"billedMembers":1090000,"balanced":true,"termedMembers":6500,"selfBilledAmount":900000,"facetsBilledAmount":900000},
+          "Jul": {"received":1160000,"loaded":1130000,"billed":1120000,"activeMembers":1110000,"billedMembers":1080000,"balanced":false,"termedMembers":6000,"selfBilledAmount":910000,"facetsBilledAmount":890000},
+          "Aug": {"received":1170000,"loaded":1170000,"billed":1160000,"activeMembers":1120000,"billedMembers":1110000,"balanced":true,"termedMembers":5500,"selfBilledAmount":920000,"facetsBilledAmount":920000},
+          "Sep": {"received":1180000,"loaded":1160000,"billed":1150000,"activeMembers":1130000,"billedMembers":1100000,"balanced":false,"termedMembers":5000,"selfBilledAmount":930000,"facetsBilledAmount":910000},
+          "Oct": {"received":1190000,"loaded":1190000,"billed":1180000,"activeMembers":1140000,"billedMembers":1130000,"balanced":true,"termedMembers":4500,"selfBilledAmount":940000,"facetsBilledAmount":940000},
+          "Nov": {"received":1200000,"loaded":1170000,"billed":1160000,"activeMembers":1150000,"billedMembers":1120000,"balanced":false,"termedMembers":4000,"selfBilledAmount":950000,"facetsBilledAmount":920000},
+          "Dec": {"received":1210000,"loaded":1210000,"billed":1200000,"activeMembers":1160000,"billedMembers":1150000,"balanced":true,"termedMembers":3500,"selfBilledAmount":960000,"facetsBilledAmount":960000}
+        }
+      },
+      "lobLast12MonthsAggregate": {
+        "Medicaid": {"received":13710000,"loaded":13420000,"billed":13200000,"activeMembers":13200000,"billedMembers":12800000,"balancedCount":7,"monthsCount":12,"termedMembers":70000,"selfBilledAmount":10400000,"facetsBilledAmount":10300000}
+      }
+    }
+  ]
+}

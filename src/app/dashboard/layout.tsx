@@ -20,6 +20,10 @@ import {
   getActiveRoute,
 } from 'utils/navigation';
 
+
+import { ClientDataProvider } from 'contexts/ClientDataContext';
+
+
 interface DashboardLayoutProps extends PropsWithChildren {
   [x: string]: any;
 }
@@ -43,6 +47,7 @@ export default function AdminLayout(props: DashboardLayoutProps) {
   const pagePadding = useColorModeValue('30px', '20px');
 
   return (
+      <ClientDataProvider>
       <Box h="100vh" w="100vw" bg={layoutBg}>
         <SidebarContext.Provider
             value={{
@@ -83,5 +88,6 @@ export default function AdminLayout(props: DashboardLayoutProps) {
           </Box>
         </SidebarContext.Provider>
       </Box>
+      </ClientDataProvider>
   );
 }

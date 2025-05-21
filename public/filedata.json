@@ -1,0 +1,273 @@
+{
+  "files": [
+    {
+      "fileNo": "F001",
+      "client": "Client A",
+      "receivedDate": "2025-02-15",
+      "fileCount": 5000,
+      "facetsCount": 4950,
+      "activeFile": 4000,
+      "activeFacets": 3950,
+      "termedFile": 500,
+      "termedFacets": 480,
+      "futureFile": 500,
+      "futureFacets": 520,
+      "errorCount": 1,
+      "mismatchReason": [
+        {
+          "category": "Missing DOB",
+          "count": 1,
+          "exampleLine": 23,
+          "description": "Date of birth missing in records"
+        }
+      ],
+      "fileStatus": "Processed"
+    },
+    {
+      "fileNo": "F002",
+      "client": "Client A",
+      "receivedDate": "2025-03-10",
+      "fileCount": 5100,
+      "facetsCount": 5100,
+      "activeFile": 4050,
+      "activeFacets": 4050,
+      "termedFile": 500,
+      "termedFacets": 500,
+      "futureFile": 500,
+      "futureFacets": 500,
+      "errorCount": 0,
+      "mismatchReason": [],
+      "fileStatus": "Processed"
+    },
+    {
+      "fileNo": "F003",
+      "client": "Client A",
+      "receivedDate": "2025-04-05",
+      "fileCount": 5200,
+      "facetsCount": 5150,
+      "activeFile": 4100,
+      "activeFacets": 4080,
+      "termedFile": 500,
+      "termedFacets": 490,
+      "futureFile": 600,
+      "futureFacets": 580,
+      "errorCount": 2,
+      "mismatchReason": [
+        {
+          "category": "Invalid Plan",
+          "count": 2,
+          "exampleLine": 102,
+          "description": "Plan code invalid or expired"
+        }
+      ],
+      "fileStatus": "Processed"
+    },
+    {
+      "fileNo": "F004",
+      "client": "Client B",
+      "receivedDate": "2025-02-20",
+      "fileCount": 5300,
+      "facetsCount": 5250,
+      "activeFile": 4200,
+      "activeFacets": 4150,
+      "termedFile": 600,
+      "termedFacets": 590,
+      "futureFile": 500,
+      "futureFacets": 510,
+      "errorCount": 3,
+      "mismatchReason": [
+        {
+          "category": "Missing Member ID",
+          "count": 1,
+          "exampleLine": 45,
+          "description": "Member ID missing in file"
+        },
+        {
+          "category": "DOB Missing",
+          "count": 2,
+          "exampleLine": 78,
+          "description": "DOB missing for members"
+        }
+      ],
+      "fileStatus": "Processed"
+    },
+    {
+      "fileNo": "F005",
+      "client": "Client B",
+      "receivedDate": "2025-03-12",
+      "fileCount": 5400,
+      "facetsCount": 5400,
+      "activeFile": 4300,
+      "activeFacets": 4300,
+      "termedFile": 600,
+      "termedFacets": 600,
+      "futureFile": 500,
+      "futureFacets": 500,
+      "errorCount": 0,
+      "mismatchReason": [],
+      "fileStatus": "Processed"
+    },
+    {
+      "fileNo": "F006",
+      "client": "Client B",
+      "receivedDate": "2025-04-18",
+      "fileCount": 5500,
+      "facetsCount": 5450,
+      "activeFile": 4400,
+      "activeFacets": 4380,
+      "termedFile": 600,
+      "termedFacets": 580,
+      "futureFile": 500,
+      "futureFacets": 490,
+      "errorCount": 1,
+      "mismatchReason": [
+        {
+          "category": "Plan Code Mismatch",
+          "count": 1,
+          "exampleLine": 115,
+          "description": "Plan codes don’t match facets"
+        }
+      ],
+      "fileStatus": "Processed"
+    },
+    {
+      "fileNo": "F007",
+      "client": "Client C",
+      "receivedDate": "2025-02-25",
+      "fileCount": 5000,
+      "facetsCount": 4950,
+      "activeFile": 3900,
+      "activeFacets": 3850,
+      "termedFile": 500,
+      "termedFacets": 490,
+      "futureFile": 600,
+      "futureFacets": 600,
+      "errorCount": 0,
+      "mismatchReason": [],
+      "fileStatus": "Processed"
+    },
+    {
+      "fileNo": "F008",
+      "client": "Client C",
+      "receivedDate": "2025-03-15",
+      "fileCount": 5100,
+      "facetsCount": 5100,
+      "activeFile": 3950,
+      "activeFacets": 3950,
+      "termedFile": 600,
+      "termedFacets": 600,
+      "futureFile": 600,
+      "futureFacets": 610,
+      "errorCount": 2,
+      "mismatchReason": [
+        {
+          "category": "Member ID Mismatch",
+          "count": 2,
+          "exampleLine": 54,
+          "description": "Member IDs do not match facets"
+        }
+      ],
+      "fileStatus": "Processed"
+    },
+    {
+      "fileNo": "F009",
+      "client": "Client D",
+      "receivedDate": "2025-02-28",
+      "fileCount": 5200,
+      "facetsCount": 5200,
+      "activeFile": 4100,
+      "activeFacets": 4100,
+      "termedFile": 600,
+      "termedFacets": 600,
+      "futureFile": 500,
+      "futureFacets": 500,
+      "errorCount": 0,
+      "mismatchReason": [],
+      "fileStatus": "Processed"
+    },
+    {
+      "fileNo": "F010",
+      "client": "Client D",
+      "receivedDate": "2025-03-30",
+      "fileCount": 5300,
+      "facetsCount": 5250,
+      "activeFile": 4150,
+      "activeFacets": 4100,
+      "termedFile": 600,
+      "termedFacets": 590,
+      "futureFile": 500,
+      "futureFacets": 510,
+      "errorCount": 4,
+      "mismatchReason": [
+        {
+          "category": "Invalid Plan",
+          "count": 2,
+          "exampleLine": 142,
+          "description": "Invalid plan code"
+        },
+        {
+          "category": "Missing DOB",
+          "count": 2,
+          "exampleLine": 71,
+          "description": "DOB missing for members"
+        }
+      ],
+      "fileStatus": "Processed"
+    },
+    {
+      "fileNo": "F011",
+      "client": "Client E",
+      "receivedDate": "2025-02-10",
+      "fileCount": 5400,
+      "facetsCount": 5350,
+      "activeFile": 4200,
+      "activeFacets": 4150,
+      "termedFile": 600,
+      "termedFacets": 590,
+      "futureFile": 600,
+      "futureFacets": 600,
+      "errorCount": 0,
+      "mismatchReason": [],
+      "fileStatus": "Processed"
+    },
+    {
+      "fileNo": "F012",
+      "client": "Client E",
+      "receivedDate": "2025-03-22",
+      "fileCount": 5500,
+      "facetsCount": 5500,
+      "activeFile": 4300,
+      "activeFacets": 4300,
+      "termedFile": 600,
+      "termedFacets": 600,
+      "futureFile": 600,
+      "futureFacets": 610,
+      "errorCount": 1,
+      "mismatchReason": [
+        {
+          "category": "DOB Missing",
+          "count": 1,
+          "exampleLine": 89,
+          "description": "DOB missing for member"
+        }
+      ],
+      "fileStatus": "Processed"
+    },
+    {
+      "fileNo": "F013",
+      "client": "Client E",
+      "receivedDate": "2025-04-02",
+      "fileCount": 5600,
+      "facetsCount": 5550,
+      "activeFile": 4400,
+      "activeFacets": 4350,
+      "termedFile": 600,
+      "termedFacets": 590,
+      "futureFile": 600,
+      "futureFacets": 600,
+      "errorCount": 0,
+      "mismatchReason": [],
+      "fileStatus": "Processed"
+    }
+  ]
+}
